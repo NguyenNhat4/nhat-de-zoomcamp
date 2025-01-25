@@ -1,8 +1,8 @@
-##1. 24.3.1
-##2. db:5432
+## 1. 24.3.1
+## 2. db:5432
 
 
-##3. 104,838; 199,013; 109,645; 27,688; 35,202
+## 3. 104,838; 199,013; 109,645; 27,688; 35,202
 
 ```sql
 SELECT 
@@ -24,7 +24,7 @@ ORDER BY "trip_segment";
 
 
 
-##4. 2019-10-31
+## 4. 2019-10-31
 
 ```sql
 SELECT 
@@ -36,7 +36,7 @@ WHERE "lpep_pickup_datetime" >= '2019-10-01'
 GROUP BY "pickup_day"
 ORDER BY "pickup_day";
 ```
-##5.East Harlem North, East Harlem South, Morningside Heights
+## 5.East Harlem North, East Harlem South, Morningside Heights
 
 ```sql
 SELECT 
@@ -52,7 +52,7 @@ LIMIT 3;
 ```
 
 
-##6.JFK Airport
+## 6.JFK Airport
 
 ```sql
 select *
@@ -61,4 +61,4 @@ join public.zones z on t."PULocationID" =  z."LocationID"
 order by t."tip_amount" DESC
 ```
 
-##7. terraform init, terraform apply -auto-approve, terraform destroy
+## 7. terraform init, terraform apply -auto-approve, terraform destroy
