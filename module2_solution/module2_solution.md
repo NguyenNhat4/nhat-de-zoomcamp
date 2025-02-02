@@ -26,10 +26,8 @@ green_tripdata_2020-04.csv
 
 1,925,152
 
-
-
+---
+ 
 ## Question 6. How would you configure the timezone to New York in a Schedule trigger?
-Add a timezone property set to EST in the Schedule trigger configuration
+
 Add a timezone property set to America/New_York in the Schedule trigger configuration
-Add a timezone property set to UTC-5 in the Schedule trigger configuration
-Add a location property set to New_York in the Schedule trigger configuration
